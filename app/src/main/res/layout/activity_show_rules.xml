@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingVertical="20dp"
+    android:background="@drawable/bg_gradient"
+    tools:context=".ShowRules"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rulesTitle"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="20sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:text="@string/rules"
+        android:textColor="@color/white"
+        android:textSize="20dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/buBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/grey_300"
+        android:onClick="back"
+        android:padding="10dp"
+        android:text="@string/buBack"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+    </Button>
+
+
+
+</LinearLayout>

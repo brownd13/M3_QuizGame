@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">M3_QuizGame</string>
+    <string name="title">Quiz Game!</string>
+    <string name="welcome">Welcome\u0020</string>
+    <string name="tvRegisterTitle">Register a New Account</string>
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="firstName">First Name</string>
+    <string name="familyName">Family Name</string>
+    <string name="DOB">Date of Birth - MM/DD/YYYY</string>
+    <string name="email">Email Address</string>
+    <string name="ivSplashDesc">Quiz Game Logo</string>
+    <string name="rulesTitle">Quiz Game Rules</string>
+    <!-- Placeholder values displayed only in Layout design/preview. Replaced during runtime. -->
+    <string name="QuestionNum">Question </string>
+    <string name="QuestionText"> </string>
+    <string name="AnswerText"> </string>
+    <string name="AnswerText0"> </string>
+    <string name="AnswerText1"> </string>
+    <string name="AnswerText2"> </string>
+    <string name="AnswerText3"> </string>
+    <string name="AnswerText4"> </string>
+    <string name="AnswerText5"> </string>
+    <string name="toNoAnswer">Please make your answer selection.</string>
+    <string name="gameScoreTitle">Your final score</string>
+    <string name="outOfScore">out of 25</string>
+    <string name="scoresTitle">Top 5 Scores</string>
+    <string name="tvScore"> </string>
+
+    <!-- Toast messages -->
+    <string name="toLoginSuccess">Login Successful.</string>
+    <string name="toLoginFail">Login Failed.</string>
+    <string name="toMissingField">Please fill out all fields.</string>
+    <string name="toFirstNameLenBad">First name must be between 3 and 30 characters long.</string>
+    <string name="toBadEmail">Please enter a valid email address: user@domain.tld</string>
+    <string name="toBadDOB">Please ensure Date of Birth is in MM/DD/YYYY Format.</string>
+
+    <!-- Button text -->
+    <string name="buLogin">Login</string>
+    <string name="buRegister">Register</string>
+    <string name="buStartGame">Start the Game</string>
+    <string name="buShowScores">Top 5 Scores</string>
+    <string name="buRules">Display Rules</string>
+    <string name="buBack">Back</string>
+    <string name="buSubmit">Submit</string>
+    <string name="buOK">OK</string>
+    <string name="buQuit">Quit</string>
+
+    <!-- Format strings -->
+    <string name="format_MMDDYYYY">^(1[0-2]|0[1-9])/(3[01]|[12][0-9]|0[1-9])/[0-9]{4}$</string>
+
+    <!-- Game rules -->
+    <string name="rules">You will see a series of questions. Answers will be multiple choice. Select your answer or answers, and then click Submit to confirm each response.\n\nEach question is worth 5 points. Partial points may be awarded in multiple-choice questions. At the end of the game your score will be displayed. If you do well enough your score and name will be added to the Top 5 list!\n\nGood Luck!
+    </string>
+
+    <!-- Questions and Answer text
+         Using semicolon delimited list with format:
+         Question;NumCorrectAnswers; CorrectAnswers 0-indexed;AllAnswers -->
+    <string-array name="questions">
+        <item>In June 2005, the Planetary Society launched the Cosmos 1 craft to test;1;2;Weather forecasting technology;surveillance capabilities;solar sailing feasibility;infra-red imaging of outer planets</item>
+        <item>The Planetary Society was founded in 1980 by;3;0;2;3;Carl Sagan;Richard Stallman;Bruce Murray;Louis Friedman;Neil Armstrong</item>
+        <item>Buzz Aldrin was born in;1;0;New Jersey;New York;New Hampshire;Texas;Florida</item>
+        <item>Bill Nye has hosted the following TV Shows;2;1;3;Bill Nye Changes the World;Bill Nye The Science Guy;Bill Nye The Astronomy Guy;Bill Nye Saves the World</item>
+        <item>The Planetary Society has around this many members;1;3;10,000;30,000;50,000;60,000;80,000</item>
+        <item>The Planetary Society radio program and podcast is called;1;1;Space Files;Planetary Radio;Astronomy Today;Intergalactic Planetary;Planetary Intergalactic</item>
+        <item>Carl Sagan earned his PhD from the University of Chicago in;1;0;1960;1961;1962;1963;1964</item>
+    </string-array>
+    <!-- All material for trivia questions found on Wikipedia
+        https://en.wikipedia.org/wiki/The_Planetary_Society
+        -->
+
+    <!-- Test questions
+        <string-array name="questions">
+            <item>Question1;1;4;foo;bar;baz;quz;woot</item>
+            <item>Question2;1;2;red;blue;green</item>
+            <item>Question3;3;0;1;2;Yes;Right;Correct;Wrong;Also Wrong</item>
+            <item>Question4;1;1;cyan;magenta;yellow;black;white</item>
+            <item>Question5;1;2;AC;DC;Resistance;Inductance;Insulation</item>
+        </string-array>
+    -->
+
+</resources>

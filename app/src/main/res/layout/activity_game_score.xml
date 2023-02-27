@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingVertical="20dp"
+    android:background="@drawable/bg_gradient"
+    tools:context=".GameScore">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gameScoreTitle"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="20sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvGameScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:textColor="@color/gold_300"
+        android:textSize="55sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:textColor="@color/white"
+        android:text="@string/outOfScore"
+        android:textSize="30sp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingVertical="20dp">
+        <Button
+            android:id="@+id/buOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/grey_300"
+            android:onClick="back"
+            android:padding="10dp"
+            android:text="@string/buOK"
+            android:textColor="@color/black"
+            android:textSize="25sp">
+        </Button>
+        <Button
+            android:id="@+id/buShowScores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/grey_300"
+            android:onClick="showTopScores"
+            android:padding="10dp"
+            android:text="@string/buShowScores"
+            android:textColor="@color/black"
+            android:textSize="25sp">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MultiAnswer">
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/rbAnswerText0"
+        android:onClick="rbAnswerSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/AnswerText5">
+    </RadioButton>
+    <RadioButton
+        android:id="@+id/rbAnswerText1"
+        android:onClick="rbAnswerSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/AnswerText1">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/rbAnswerText2"
+        android:onClick="rbAnswerSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/AnswerText2">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/rbAnswerText3"
+        android:onClick="rbAnswerSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/AnswerText3">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/rbAnswerText4"
+        android:onClick="rbAnswerSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/AnswerText4">
+    </RadioButton>
+    </RadioGroup>
+
+
+</LinearLayout>

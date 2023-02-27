@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MultiAnswer">
+
+    <CheckBox
+        android:id="@+id/cbAnswerText0"
+        android:onClick="cbAnswerSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/AnswerText5">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/cbAnswerText1"
+        android:onClick="cbAnswerSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/AnswerText1">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/cbAnswerText2"
+        android:onClick="cbAnswerSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/AnswerText2">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/cbAnswerText3"
+        android:onClick="cbAnswerSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/AnswerText3">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/cbAnswerText4"
+        android:onClick="cbAnswerSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/AnswerText4">
+    </CheckBox>
+
+</LinearLayout>
